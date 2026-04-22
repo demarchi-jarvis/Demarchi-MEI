@@ -1,0 +1,377 @@
+================================================================
+  LISTA DE ALVOS — PROSPECÇÃO VASSOURAS/RJ
+  Demarchi MEI · Parceria Técnica Evolutiva
+================================================================
+  Criado em: 22/04/2026
+  Meta: 1 parceiro fechado em até 30 dias
+  Valor alvo: R$ 1.600/mês (retainer fixo)
+================================================================
+
+LEGENDA DE PRIORIDADE:
+  🔴 QUENTE  — Alta chance de conversão (contato direto ou indicação)
+  🟡 MORNO   — Potencial claro, exige abordagem consultiva
+  🟢 FRIO    — Longo prazo, ciclo de venda mais longo
+
+LEGENDA DE SERVIÇO INDICADO:
+  [A] Cloud Cost Guard     — Monitoramento e redução de custos AWS
+  [B] SRE Lite             — Sustentação e confiabilidade de sistemas
+  [C] DevOps Advisory      — CI/CD, automação e evolução contínua
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ALVOS — VASSOURAS E REGIÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────────────────────────
+ALVO 01 — UNIVERSIDADE DE VASSOURAS (USS)
+────────────────────────────────────────────────────────────
+  Prioridade:   🟡 MORNO
+  Segmento:     Educação Superior
+  Serviço:      [B] SRE Lite + [C] DevOps Advisory
+  Site:         universidadedevassouras.edu.br
+
+  POR QUE É UM ALVO:
+  Instituição com múltiplos sistemas: portal do aluno,
+  ERP acadêmico, sistemas de saúde (faculdades de medicina
+  e enfermagem), câmeras, servidores internos.
+  Alta demanda por confiabilidade e uptime dos sistemas.
+  Geralmente tem TI interna limitada para a complexidade
+  do ambiente.
+
+  DIFICULDADE:
+  Ciclo de venda mais longo (processo de compras institucional).
+  Entrar via indicação de um professor ou funcionário acelera.
+
+  ABORDAGEM:
+  Contato com Setor de TI ou Diretoria de TI via LinkedIn.
+  Oferecer diagnóstico gratuito de maturidade de infraestrutura.
+
+  CONTATO A BUSCAR:
+  Gerente / Coordenador de TI da USS
+  LinkedIn: buscar "TI Universidade de Vassouras"
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 02 — PREFEITURA MUNICIPAL DE VASSOURAS
+────────────────────────────────────────────────────────────
+  Prioridade:   🟢 FRIO
+  Segmento:     Setor Público
+  Serviço:      [B] SRE Lite + [A] Cloud Cost Guard
+  Site:         vassouras.rj.gov.br
+
+  POR QUE É UM ALVO:
+  Prefeituras de médio porte estão migrando sistemas para
+  cloud (gov.br, AWS) por obrigação da LGPD e eficiência.
+  Costumam ter orçamento de TI, mas sem equipe técnica
+  especializada em cloud.
+
+  DIFICULDADE:
+  Processo licitatório (Lei 14.133) — ciclo longo.
+  Melhor abordar via Secretaria de TI para um projeto piloto
+  ou consultoria antes de qualquer pregão.
+
+  ABORDAGEM:
+  Contato presencial na Secretaria de Administração ou TI.
+  Como morador local, você tem vantagem de acesso.
+
+  CONTATO A BUSCAR:
+  Secretário de Administração ou responsável pela TI municipal
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 03 — CLÍNICAS MÉDICAS E ODONTOLÓGICAS (2 a 3 unidades)
+────────────────────────────────────────────────────────────
+  Prioridade:   🔴 QUENTE
+  Segmento:     Saúde
+  Serviço:      [B] SRE Lite
+  Exemplos:     Clínicas próximas à USS (muitas ligadas à faculdade
+                de medicina), clínicas particulares do centro
+
+  POR QUE É UM ALVO:
+  Clínicas com 2+ consultórios já usam sistemas de agendamento
+  online, prontuário eletrônico (iClinic, Dr.Consulta, etc.)
+  e armazenam dados sensíveis (LGPD — saúde).
+  Qualquer downtime representa perda direta de consultas.
+  Dono/gestor geralmente não tem nenhum suporte técnico ativo.
+
+  DIFICULDADE:
+  Baixa — decisão é do próprio dono. Ciclo curto.
+  Dor real e imediata: "e se o sistema cair na segunda-feira?"
+
+  ABORDAGEM:
+  Abordagem via indicação (médico/dentista que você conhece)
+  ou visita presencial à recepção entregando uma proposta
+  de 1 página.
+  Argumento principal: LGPD + uptime = paciente não perde hora.
+
+  CONTATO A BUSCAR:
+  Proprietário da clínica ou gerente administrativo
+
+  STATUS:  [ ] Não contactado — identificar 2-3 clínicas locais
+
+
+────────────────────────────────────────────────────────────
+ALVO 04 — ESCRITÓRIOS DE CONTABILIDADE
+────────────────────────────────────────────────────────────
+  Prioridade:   🔴 QUENTE
+  Segmento:     Serviços Financeiros / Contabilidade
+  Serviço:      [B] SRE Lite + [C] DevOps Advisory
+
+  POR QUE É UM ALVO:
+  Contadores usam sistemas críticos (Domínio, Alterdata, Totvs)
+  e trabalham com prazos rígidos da Receita Federal.
+  Um sistema fora do ar no dia de entrega de DCTF ou SPED
+  gera multa para os clientes deles — dor ENORME.
+  Estão cada vez mais em cloud e sem suporte técnico sênior.
+
+  DIFICULDADE:
+  Baixa — são empreendedores que entendem o valor de R$ 1.600
+  quando comparado ao risco de multa de R$ 10.000+.
+
+  ABORDAGEM:
+  "Você paga R$ 1.600/mês para garantir que seus sistemas
+   nunca fiquem fora do ar no dia de entrega de obrigações."
+  Abordagem presencial ou via indicação de cliente em comum.
+
+  CONTATO A BUSCAR:
+  Contador / Sócio do escritório
+
+  STATUS:  [ ] Não contactado — mapear 3-4 escritórios em Vassouras
+
+
+────────────────────────────────────────────────────────────
+ALVO 05 — SUPERMERCADOS E VAREJO LOCAL (médio porte)
+────────────────────────────────────────────────────────────
+  Prioridade:   🟡 MORNO
+  Segmento:     Varejo / Alimentação
+  Serviço:      [B] SRE Lite + [A] Cloud Cost Guard
+
+  POR QUE É UM ALVO:
+  Supermercados com 1 a 3 lojas já usam ERP (Autosystem,
+  Linx, TOTVS) com servidor local ou cloud.
+  Qualquer queda no PDV (frente de caixa) paralisa as vendas.
+  Geralmente não têm TI própria — chamam o fornecedor do sistema
+  que demora horas para responder.
+
+  DIFICULDADE:
+  Média — o dono entende o custo de downtime (vendas paradas),
+  mas pode ter resistência ao modelo de retainer.
+  Abordagem: foque no quanto custa 1h com o caixa parado.
+
+  ABORDAGEM:
+  Visita presencial ao gerente ou dono.
+  Argumento: "quanto você perde se o sistema cair numa sexta-feira?"
+
+  CONTATO A BUSCAR:
+  Proprietário ou gerente geral
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 06 — IMOBILIÁRIAS / CORRETORAS DE IMÓVEIS
+────────────────────────────────────────────────────────────
+  Prioridade:   🟡 MORNO
+  Segmento:     Imobiliário
+  Serviço:      [C] DevOps Advisory + [B] SRE Lite
+
+  POR QUE É UM ALVO:
+  Imobiliárias de médio porte usam portais (Imovelweb, Viva Real,
+  ZAP) e sistemas internos de CRM + contratos digitais.
+  Muitas estão construindo ou mantendo sites próprios com
+  integração de portais — e não têm suporte técnico.
+
+  DIFICULDADE:
+  Média — precisam ser educadas sobre o valor do serviço.
+
+  ABORDAGEM:
+  "Garanto que o site e o sistema de vocês ficam no ar
+   e evoluindo todo mês por um custo fixo."
+
+  CONTATO A BUSCAR:
+  Sócio ou gerente de TI/marketing
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 07 — EMPRESAS DE LOGÍSTICA / TRANSPORTADORAS REGIONAIS
+────────────────────────────────────────────────────────────
+  Prioridade:   🔴 QUENTE
+  Segmento:     Logística e Transporte
+  Serviço:      [A] Cloud Cost Guard + [B] SRE Lite
+
+  POR QUE É UM ALVO:
+  Seu diferencial MÁXIMO aqui: você trabalha na nstech,
+  referência nacional em tecnologia para logística.
+  Transportadoras regionais usam TMS, rastreamento e
+  integração com ERPs — ambientes críticos e frequentemente
+  sem suporte técnico adequado.
+  Você fala a língua deles.
+
+  DIFICULDADE:
+  Baixa — seu background na nstech é credencial imediata.
+  "Trabalho na maior empresa de TI para logística do Brasil
+   e posso trazer esse padrão para o negócio de vocês."
+
+  ABORDAGEM:
+  Rede de contatos via nstech ou LinkedIn.
+  Transportadoras da região Sul Fluminense / Vale do Paraíba.
+
+  CONTATO A BUSCAR:
+  Gerente de TI ou Sócio-operacional
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 08 — LABORATÓRIOS DE ANÁLISES CLÍNICAS
+────────────────────────────────────────────────────────────
+  Prioridade:   🔴 QUENTE
+  Segmento:     Saúde / Diagnóstico
+  Serviço:      [B] SRE Lite
+
+  POR QUE É UM ALVO:
+  Laboratórios dependem 100% de sistemas para laudos,
+  integração com planos de saúde e agendamentos.
+  São altamente regulados (LGPD + RDC ANVISA) e
+  precisam de rastreabilidade e uptime.
+  Qualquer falha compromete resultados de pacientes.
+
+  DIFICULDADE:
+  Baixa a média — a dor é clara e o custo de downtime é alto.
+
+  ABORDAGEM:
+  "Garanto que o sistema do laboratório nunca fique fora do ar
+   e que os dados dos pacientes estejam sempre protegidos."
+
+  CONTATO A BUSCAR:
+  Diretor técnico ou administrativo do laboratório
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 09 — ESCOLA PARTICULAR / CURSO PREPARATÓRIO
+────────────────────────────────────────────────────────────
+  Prioridade:   🟡 MORNO
+  Segmento:     Educação Privada
+  Serviço:      [B] SRE Lite + [C] DevOps Advisory
+
+  POR QUE É UM ALVO:
+  Escolas privadas usam sistemas de gestão escolar (SGE),
+  portais do aluno e cada vez mais plataformas EAD.
+  Com a digitalização pós-pandemia, a infraestrutura
+  de TI cresceu mas o suporte não acompanhou.
+
+  DIFICULDADE:
+  Média — decisão passa por diretoria administrativa.
+
+  ABORDAGEM:
+  Foco em LGPD (dados de menores de idade = risco alto)
+  e continuidade dos sistemas em períodos de matrícula.
+
+  CONTATO A BUSCAR:
+  Diretor administrativo ou coordenador de TI
+
+  STATUS:  [ ] Não contactado
+
+
+────────────────────────────────────────────────────────────
+ALVO 10 — PEQUENA INDÚSTRIA LOCAL (metalurgia, alimentos)
+────────────────────────────────────────────────────────────
+  Prioridade:   🟢 FRIO
+  Segmento:     Indústria
+  Serviço:      [A] Cloud Cost Guard + [C] DevOps Advisory
+
+  POR QUE É UM ALVO:
+  Indústrias de pequeno e médio porte na região estão
+  migrando ERP (SAP B1, Totvs, Senior) para cloud.
+  Linha de produção dependente de sistemas = parada cara.
+  Seu perfil de engenharia e .NET tem fit com sistemas
+  industriais e integrações com APIs de fornecedores.
+
+  DIFICULDADE:
+  Alta — ciclo de venda longo, múltiplos decisores.
+  Melhor abordar via indicação de contador ou consultor.
+
+  ABORDAGEM:
+  Parceria com consultores de ERP da região que já atendem
+  essas indústrias — você entra como braço de infraestrutura.
+
+  CONTATO A BUSCAR:
+  Gerente de TI ou Diretor Industrial
+
+  STATUS:  [ ] Não contactado
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  RANKING DE ABORDAGEM RECOMENDADA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ORDEM DE PRIORIDADE PARA OS PRIMEIROS 30 DIAS:
+
+  1º  Transportadoras regionais       → seu diferencial nstech
+  2º  Escritórios de contabilidade    → dor clara + decisão rápida
+  3º  Clínicas médicas/odontológicas  → ciclo curto, dor imediata
+  4º  Laboratórios clínicos           → LGPD + uptime crítico
+  5º  Universidade de Vassouras       → potencial alto, ciclo médio
+  6º  Clínicas (novas)                → pipeline contínuo
+  7º  Prefeitura de Vassouras         → longo prazo
+  8º  Imobiliárias                    → médio prazo
+  9º  Supermercados                   → médio prazo
+  10º Indústrias locais               → longo prazo
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SCRIPT DE QUALIFICAÇÃO RÁPIDA (antes de investir tempo)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Antes de agendar reunião, qualifique com 3 perguntas:
+
+  1. "Vocês têm algum sistema ou servidor rodando online?"
+     → Se não: descarta. Se sim: continua.
+
+  2. "Quando ele fica fora do ar, impacta as operações?"
+     → Se não: descarta. Se sim: continua.
+
+  3. "Vocês têm alguém responsável por isso internamente?"
+     → Se não: IDEAL. Se sim parcialmente: ainda vale.
+
+  Alvo qualificado = responde SIM nas 3 perguntas.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTROLE DE PROSPECÇÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ALVO                          | CONTATO | DATA  | STATUS
+  ─────────────────────────────────────────────────────────
+  01 - USS                      |         |       |
+  02 - Prefeitura               |         |       |
+  03 - Clínicas médicas         |         |       |
+  04 - Contabilidade            |         |       |
+  05 - Supermercados            |         |       |
+  06 - Imobiliárias             |         |       |
+  07 - Transportadoras          |         |       |
+  08 - Laboratórios             |         |       |
+  09 - Escola particular        |         |       |
+  10 - Indústria local          |         |       |
+
+  STATUS POSSÍVEIS:
+  [ ] Não contactado
+  [A] Abordagem feita — aguardando retorno
+  [R] Reunião agendada
+  [P] Proposta enviada
+  [F] Fechado (PARCEIRO)
+  [X] Descartado
+
+================================================================
+  Vassouras/RJ · Demarchi MEI · 2026
+  "O melhor cliente é o que está a 20 minutos de distância
+   e nunca teve acesso ao nível técnico que você oferece."
+================================================================
