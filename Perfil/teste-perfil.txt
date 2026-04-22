@@ -1,0 +1,155 @@
+Antonio DemarchiEngenheiro de Software | Desenvolvedor .NET | DevOps & Cloud AWSBrazil·Contact infonstechFIAP500+ connectionsOpen toAdd sectionView my portfolioResourcesTell non-profits you are interested in getting involved with your time and skillsGet startedAnalyticsPrivate to you179 profile viewsDiscover who's viewed your profile.214 post impressionsCheck out who's engaging with your posts.Past 7 days32 search appearancesSee how often you appear in search results.Show allAboutEngenheiro de Software com 7 anos de experiência prática e uma trajetória de 12 anos de imersão na tecnologia. Especializado na construção de sistemas para o setor financeiro, com passagens por empresas de grande porte como nstech, Itaú, Stefanini Group, Globo, Radix Engenharia e Software.Minha atuação une o desenvolvimento backend à cultura DevOps, com foco em transformar requisitos complexos em soluções escaláveis, seguras e de alta disponibilidade. Tenho expertise na análise de requisitos para garantir que cada etapa do processo de desenvolvimento seja executada com precisão e que a documentação esteja sempre detalhada e atualizada. Complementando essa visão técnica, utilizo o Data Analytics e técnicas de storytelling para construir roteiros que transformam dados e KPIs em insights claros para palestras e apresentações.Com formação pelo IFRJ (2016), busquei me especializar no Instituto Infnet em Análise e Desenvolvimento (2023) e Engenharia de Software (2025), aprofundando conhecimentos em computação na nuvem, infraestrutura escalável e aprendizado de máquina para construção de modelos inteligentes através do reconhecimento de padrões. Atualmente cursando a Pós em DevOps e Arquitetura Cloud da FIAP (2025), focada na implementação de pipelines de CI/CD (Integração e Entrega Contínua), Infraestrutura como Código (IaC) e na estruturação de ambientes de nuvem com ferramentas como containers Docker e orquestração Kubernetes (EKS) na AWS, garantindo escalabilidade, agilidade e qualidade da entrega em todo o ciclo de vida do desenvolvimento de software.
+
+Github: https://github.com/DemarchiWorking
+Portfólio Frontend: https://portfoliodemarchi.com.br/
+
+Top skills
+
+C# • .NET Core • Amazon Web Services (AWS)
+
+
+############
+Logo Portfólio
+Inicio
+Sobre
+Serviços
+Portfólio
+Contato
+Contatar
+Olá .
+
+Sou Antonio Demarchi
+Engenheiro de Sistemas
+Especialista em Desenvolvimento .NET (C#) .
+
+Meus projetos
+Resumo
+Foto de Perfil de Antonio Demarchi
+Alternar tema
+AWS
+.NET (C#)
+JAVA
+PYTHON
+ANGULAR
+GIT
+DEVOPS
+Engenheiro de Software
+
+Desenvolvedor de Aplicativos
+
+Analista DevOps e Cloud
+
+ARTEFATOS ACADÊMICOS
+IFRJ
+IFRJ
+Exército
+Exército
+Infnet
+Infnet
+FIAP
+FIAP
+Caneta
+Pós-Tech DevOps & Arquitetura Cloud
+Especialização em AWS, Kubernetes e automação de infraestrutura escalável.
+
+Caneta
+✓ Pós-Graduação em Cloud
+Sobre
+Engenheiro de Sistemas com 8 anos de experiência prática na área, especializado em backend (.NET) e arquitetura de nuvem (AWS).
+
+Abordagem Full-Cycle
+Atuo desde a concepção de interfaces intuitivas até o provisionamento de infraestrutura escalável, integrando dados, automação e observabilidade através de uma cultura DevOps . Entrega pautada por documentação técnica e métricas de desempenho que permitem mensurar o sucesso e o impacto real de cada solução.
+
+Objetivo
+Ser a referência técnica que impulsiona a transformação digital de parceiros através de soluções criativas, inovadoras e processos bem definidos, garantindo que os objetivos de negócio sejam atingidos com excelência.
+
+Foco em Resultados
+Atuo com modelos de parceria baseados em Retorno sobre o Investimento (ROI), conectando tecnologia ao sucesso financeiro.
+
+100 +
+Projetos GitHub
+3
+Formações Concluídas
+8 +
+Anos de ExperiênciaProjetosPlataforma E-commerce Arte e CulturaAngularJavaTailwindNextPlataforma E-commerce Arte e CulturaPlataforma completa de Vitrine Digital para Artesãos, utilizando tecnologias modernas (Java, Angular).RepositórioDownload Documentação PDFPlataforma Ensino Programação GamificadaAngularGamificaçãoPlataforma Ensino Programação GamificadaPlataforma Educacional com pegada gamificada envolvendo XP, rankings e quests.RepositórioDownload Documentação PDFApp Infraestrutura - KubernetesIaCKubernetesDockerCloudApp Infraestrutura - KubernetesControle de funcionalidades em tempo real (Feature Toggles) para usuários específicos.RepositórioDownload Documentação PDFMinhas ExperiênciasUma jornada de aprendizado contínuo e paixão por construir interfaces que encantam e resolvem problemas reais.Técnico em Desenvolvimento Web pelo IFRJFormação no Técnico pela Federal, Início da graduação de Engenharia.2016-2019Estágio .Radix Engenharia e SoftwareCriação de layouts e banners para os primeiros sites da web.2020-2021Analista de Segurança da InformaçãoRede GloboBlue Team.2021-2022Desenvolvedor BackendStefanini GroupConsultor para o banco Itaú. Desenvolvimento de APIs com .NET Core. Formado em Análise e Desenvolvimento e também em Engenharia de Software pelo Instituto Infnet
+
+2022-2025
+Stefanini Group
+Consultor Backend para a equipe do Itaú (Segurança da Informação), atuei no desenvolvimento de soluções de alta criticidade.
+
+2022-2023
+Desenvolvedor Full Stack
+Desenvolvedor cursando Pós de DevOps e Arquitetura Cloud na FIAP.
+
+2025
+
+
+.
+Projetos
+Documentações
+Deploy
+/in/demarchi1
+Desenvolvido por Demarchi
+
+© 2026 LabDataDev
+
+LinkedIn
+antonio.demarchi@al.infnet.edu.br
+Tarefa Sec. Desenv T1
+
+
+
+
+###
+(24) 998435335 demarchivagas@gmail.com
+C# (.NET )
+JAVA (Spring)
+PYTHON (Django - Flask)
+TDD  -  BDD  -  SOLID - CLEAN CODE
+RABBITMQ (Filas)
+REACT - ANGULAR
+TYPESCRIPT
+CONSUMO API (Observable)
+HTML - CSS - JQUERY - JS
+GRID - FLEXBOX - TAILWIND
+AMAZON AWS - AZURE CLOUD
+EC2 - S3 - LAMBDA - RDS
+DOCKER - CONTAINER
+GIT -  ACTIONS - DEVOPS
+PROMETHEUS - GRAFANA - SPLUNK
+TOKENS JWT (Identity, Security)
+TESTES (JUnit, Selenium)
+SQL (Procedures, Join, View)
+RPA (Automação)
+JAVASCRIPT - PHP
+Análise de Requisitos
+Modelagem de Diagramas
+Melhoria Contínua
+Entrega Ágil Disciplinada
+Agregar valor operacional ao negócio por meio da integração de tecnologias, inteligência
+artificial, dados e observabilidade. Tenho experiência no desenvolvimento back end paraaplicações bancárias, projetos de engenharia e segurança da informação. Meu diferencial é a capacidade de resolver problemas complexos com soluções seguras,arquiteturas escaláveis e de alta performance.ENGENHEIRO DE SOFTWAREPERFIL PROFISSIONAL BACK ENDFRONT ENDOUTROSEXPERIÊNCIAFORMAÇÃO ACADÊMICAANTONIO DEMARCHIMultinacional líder em soluções de IA e tecnologia, presente em 41 países. Especificamente na célula bancária quepresta consultoria para os 5 principais bancos do país e diversos outros internacionais.Participo de todo ciclo de desenvolvimento e refatorações (shadow), sendo responsável por reuniões com
+stakeholders para gerar requisitos, produzir documentações, estimar/apontar tempo para tarefas (ABF/BCP),
+construir sistemas utilizando  API s com .NET Core seguindo as boas práticas (Microsoft) e scripts SQL
+(Procedures/View/Joins) e Angular no frontend. Além de integrar equipamentos de segurança como câmeras
+inteligentes com sistemas e ferramentas de monitoramento.
+Cloud AWS , Machine Learning, Engenharia Disciplinada e Escalável, Ciência da Computação, DDD, Testes,
+Matemática  Discreta e para Dados, DevOps, Docker, Kubernetes, C#, Python, Java, Javascript, Kotlin, React, Análise
+De Negócios, Modelagem de Dados , Sistemas Operacionais, Especificação de Sistemas, Estrutura de Dados.
+Java - COBOL -  Banco de Dados - Inglês para Informática - Arquitetura de Computadores - Empreendedorismo- Programação Orientada a Objeto  -  Lógica de Programação - Redes de Computadores...
+Arquitetura em . NET Core (CQRS)  para novas soluções, features, correção de bugs  para projeto logística da
+BRASPRESS & Air Cargo Transportes Aéreo. Usando  Filas (RabbitMq), Cloud(Azure) e Testes Automatizados.
+Stefanini Group
+Engenharia de Software &
+Análise e Desenvolvimento de Sistemas
+Informática para Internet
+ESMenezes
+Desenvolvedor Back End • Jul 2022– Atual
+Instituto Infnet • 2018–2025
+Instituto Federal do Rio de Janeiro • 2013–2016
+Desenvolvedor .NET (PJ) • Feb 2022 – Jul 2022
+Segurança da Informação • Mai 2021– Feb 2022
+Rede Globo
+Maior rede de televisão do Brasil e a segunda maior do mundo e parceria estratégica com o Google 2021.
+BlueTeam: Pyhon, PowerShell, Redes,Linux, Prompt, Banco de dados, GCP, Compliance, Compliance.
+Desenvolvedor .NET  • Jan 2020– Abr 2021
+Radix Engenharia e SoftwareTOP 1 GPTW - Great Place to Work 2020 (Médias - Melhores empresas para se trabalhar RJ 2020)Atuação em projetos de sustentação e desenvolvimento de soluções .NET para diversos segmentos daengenharia, utilizando TDD e tecnologias Microsoft (C# - WEB API  & MVC).Experiência em criar microserviços para monitoramento de dispositivos IoT, análise de dados e geração derelatórios e dashboards PowerBI.Exército Brasileiro Analista de Infraestrutura - Mar 2016 - Nov 2017linkedin.com/in/demarchi1NET FRAMEWORK,NET CORE,CQRS,SOLID,TESTES(SELENIUM), CLEAN CODE,RabbitMQ(FILA), DOCKER,CI/CD,GIT, AZURE.(OBJETIVO)NASCIMENTO 04/08/1997(DCMUN - Depósito Central de Munição)Arquiteturas Cloud otimizadas para AWS, VPC, EC2, ECS, EKS, ELB,Aurora, RDS, DynamoDB, Secrets, WAF e IAM.Kubernetes (K8S),Containers Docker, Load Balancers, Nginx, Balanceamento de Carga, Proxy.IaC Terraform, Criação de pipelines com GitHub Actions, CI/CD, Deploy Automatizado, Monitoramento.Pós Tech DevOps e Arquitetura em CloudFiap • 2025–2026

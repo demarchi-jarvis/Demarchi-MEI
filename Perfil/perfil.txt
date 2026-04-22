@@ -1,0 +1,169 @@
+================================================================
+  PERFIL PROFISSIONAL - ANTONIO DEMARCHI
+  Documento base para estruturação da empresa MEI
+================================================================
+
+DADOS PESSOAIS
+--------------
+Nome:         Antonio Demarchi
+Nascimento:   04/08/1997
+Telefone:     (24) 998435335
+E-mail:       demarchivagas@gmail.com
+LinkedIn:     linkedin.com/in/demarchi1
+GitHub:       https://github.com/DemarchiWorking
+Portfólio:    https://portfoliodemarchi.com.br/
+
+
+RESUMO EXECUTIVO
+----------------
+Engenheiro de Software com 8 anos de experiência prática e 12 anos de
+imersão na tecnologia. Especializado em desenvolvimento backend com .NET
+e arquitetura de nuvem AWS. Atuou em grandes empresas do mercado nacional:
+Itaú (via Stefanini), Rede Globo, nstech, Radix Engenharia e Software.
+
+Perfil técnico sólido que vai do desenvolvimento de APIs até provisionamento
+de infraestrutura escalável, com visão de negócio orientada a ROI e entrega
+de valor real ao cliente. Diferencial em documentação técnica, análise de
+requisitos e uso de dados para tomada de decisão.
+
+
+POSICIONAMENTO PROFISSIONAL
+---------------------------
+- Engenheiro de Software (Backend especialista)
+- Desenvolvedor de Aplicativos
+- Analista DevOps e Cloud
+- Consultor de Tecnologia para setor financeiro e engenharia
+
+
+COMPETÊNCIAS TÉCNICAS
+---------------------
+
+>> BACKEND (Core)
+   C# | .NET Core | .NET Framework
+   CQRS | SOLID | Clean Code | TDD | BDD
+   Java (Spring) | Python (Django, Flask)
+   RabbitMQ (Mensageria / Filas)
+   APIs REST | Microserviços
+
+>> FRONTEND
+   Angular | React | TypeScript
+   HTML | CSS | JavaScript | jQuery
+   Tailwind | Flexbox | Grid
+
+>> CLOUD & DEVOPS
+   Amazon AWS: EC2, S3, Lambda, RDS, VPC, ECS, EKS, ELB,
+               Aurora, DynamoDB, Secrets Manager, WAF, IAM
+   Microsoft Azure
+   Docker | Kubernetes (K8S) | EKS
+   IaC: Terraform
+   CI/CD: GitHub Actions | Pipelines automatizados
+   Observabilidade: Prometheus | Grafana | Splunk
+   Nginx | Load Balancers | Proxy
+
+>> BANCO DE DADOS
+   SQL: Procedures, Joins, Views
+   RDS | Aurora | DynamoDB
+
+>> SEGURANÇA
+   Tokens JWT | Identity | Security
+   Blue Team (SOC/Segurança Ofensiva)
+   Compliance | GCP | PowerShell | Linux
+
+>> QUALIDADE & PROCESSOS
+   Testes Automatizados: JUnit | Selenium
+   RPA (Automação de Processos)
+   Análise de Requisitos | Modelagem de Diagramas
+   Documentação técnica | Metodologias Ágeis
+
+
+FORMAÇÃO ACADÊMICA
+------------------
+2013-2016   Instituto Federal do Rio de Janeiro (IFRJ)
+            Técnico em Desenvolvimento Web / Informática para Internet
+
+2016-2017   Exército Brasileiro (DCMUN)
+            Analista de Infraestrutura
+
+2018-2023   Instituto Infnet
+            Análise e Desenvolvimento de Sistemas
+
+2018-2025   Instituto Infnet
+            Engenharia de Software
+
+2025-2026   FIAP
+            Pós-Tech DevOps & Arquitetura Cloud
+            (AWS, Kubernetes, IaC, CI/CD, Infraestrutura Escalável)
+
+
+EXPERIÊNCIA PROFISSIONAL
+------------------------
+
+[2016-2017] Exército Brasileiro — Analista de Infraestrutura
+            Gestão e manutenção de infraestrutura no DCMUN
+            (Depósito Central de Munição).
+
+[2020-2021] Radix Engenharia e Software — Desenvolvedor .NET
+            TOP 1 GPTW 2020 (Melhores empresas RJ).
+            Desenvolvimento de soluções .NET para projetos de engenharia.
+            APIs com C# (WEB API & MVC), TDD, microserviços IoT,
+            dashboards PowerBI e análise de dados.
+
+[2021-2022] Rede Globo — Analista de Segurança da Informação
+            Blue Team: Python, PowerShell, Redes, Linux, GCP, Compliance.
+            Parceria estratégica com Google 2021.
+
+[2022]      ESMenezes — Desenvolvedor .NET (PJ)
+            Projeto de logística para BRASPRESS & Air Cargo Transportes Aéreo.
+            Arquitetura .NET Core (CQRS), RabbitMQ, Azure, Testes Automatizados.
+
+[2022-Atual] Stefanini Group — Desenvolvedor Back End
+            Multinacional em 41 países, consultor para os 5 maiores bancos do Brasil.
+            Consultoria para Itaú (Segurança da Informação).
+            Participação no ciclo completo: reuniões com stakeholders, requisitos,
+            documentação, estimativas (ABF/BCP), desenvolvimento de APIs .NET Core,
+            scripts SQL, Angular no frontend e integração com câmeras inteligentes.
+
+
+PROJETOS EM PORTFÓLIO
+---------------------
+1. Plataforma E-commerce Arte e Cultura
+   Vitrine digital para artesãos | Angular, Java, Tailwind, Next.js
+
+2. Plataforma de Ensino Gamificada
+   Plataforma educacional com XP, rankings e quests | Angular
+
+3. App Infraestrutura Kubernetes
+   Feature Toggles em tempo real | IaC, Kubernetes, Docker, Cloud
+
+
+NÚMEROS
+-------
+- 100+ projetos no GitHub
+- 8+ anos de experiência prática
+- 3 formações concluídas
+- Atuação nos setores: financeiro, engenharia, segurança da informação, mídia
+
+
+DIFERENCIAIS COMO EMPRESÁRIO / CONSULTOR
+-----------------------------------------
+1. Experiência comprovada em grandes corporações do Brasil (Itaú, Globo, nstech)
+2. Visão Full-Cycle: do front ao provisionamento de infraestrutura em nuvem
+3. Setor financeiro de alta criticidade — exigência máxima de qualidade
+4. Capacidade de atuar como ponte entre negócio e tecnologia (requisitos + entrega)
+5. Data Analytics + Storytelling para apresentações e tomada de decisão
+6. Foco em ROI — conecta tecnologia ao sucesso financeiro do cliente
+7. Formação contínua e atualizada (FIAP 2025-2026 com DevOps e Cloud)
+8. Entrega disciplinada: documentação, testes, boas práticas e metodologia ágil
+
+
+OBJETIVO DA EMPRESA MEI
+------------------------
+Oferecer serviços de tecnologia, produtos digitais e consultoria especializada,
+aplicando a experiência acumulada em grandes empresas para gerar valor real
+a pequenas e médias empresas, startups e clientes que precisam de soluções
+escaláveis, seguras e com foco em resultado.
+
+================================================================
+  Documento gerado em: 22/04/2026
+  Uso: Planejamento e estruturação da empresa Demarchi MEI
+================================================================
