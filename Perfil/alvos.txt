@@ -375,3 +375,381 @@ ALVO 10 — PEQUENA INDÚSTRIA LOCAL (metalurgia, alimentos)
   "O melhor cliente é o que está a 20 minutos de distância
    e nunca teve acesso ao nível técnico que você oferece."
 ================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  30 ALVOS REAIS MAPEADOS — VASSOURAS/RJ
+  (Pesquisados via Google Maps, Guia Fácil, Doctoralia,
+   Apontador, Portal da Cidade, Econodata e TeleListas)
+  Adicionado em: 23/04/2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+────────────────────────────────────────────────────────────
+  BLOCO A — SAÚDE (10 alvos)
+  Dor: LGPD + uptime crítico + decisão rápida do proprietário
+────────────────────────────────────────────────────────────
+
+R01. HOSPITAL UNIVERSITÁRIO DE VASSOURAS (HUV)
+     Prioridade: 🟡 MORNO   Serviço: [B] + [A]
+     Endereço:   Rua Vicente Celestino, 201 — Madruga, Vassouras/RJ
+     Site:       huv.univassouras.edu.br
+     Por quê:    Hospital universitário com prontuário eletrônico,
+                 sistemas clínicos, dados de pacientes (LGPD alto risco).
+                 TI interna limitada para o porte da instituição.
+     Abordagem:  LinkedIn → Coordenador de TI do HUV.
+     STATUS: [ ]
+
+R02. HOSPITAL EUFRASIA TEIXEIRA LEITE
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Praça Provedor Felix Machado, 110 — Madruga, Vassouras/RJ
+     Por quê:    Hospital de referência histórica da cidade. Sistemas de
+                 internação, faturamento e agendamento dependentes de uptime.
+     Abordagem:  Contato com diretoria administrativa.
+     STATUS: [ ]
+
+R03. CENTRO INTEGRADO DE SAÚDE
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Avenida Rui Barbosa, 17 — Vassouras/RJ
+     Fonte:      doctoralia.com.br/clinicas/centro-integrado-de-saude
+     Por quê:    Clínica multi-especialidades com agendamento online e
+                 prontuário eletrônico. Decisão rápida — fala com o dono.
+     Abordagem:  Visita presencial. "LGPD + downtime = paciente sem consulta."
+     STATUS: [ ]
+
+R04. CLÍNICA RODRIGO PAIXÃO
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Rua Guilherme Oats, 50 — Melo Afonso, Vassouras/RJ
+     Por quê:    Clínica local com proprietário médico que decide sozinho.
+                 Ciclo de venda curto. Dor imediata com sistema fora do ar.
+     Abordagem:  Abordagem direta ao Dr. Rodrigo via telefone ou presencial.
+     STATUS: [ ]
+
+R05. CLÍNICA UROS
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Centro, Vassouras/RJ
+     Contato:    (24) 98823-9... (Página Amarela)
+     Por quê:    Clínica especializada no centro. Sistema de agendamento
+                 digital. Proprietário decide sozinho, ciclo curto.
+     Abordagem:  Ligação ou visita presencial à recepção.
+     STATUS: [ ]
+
+R06. ODONTOCOMPANY VASSOURAS
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Rua Caetano Furquim, 14 — Centro, Vassouras/RJ
+     Telefone:   (24) 2471-9238
+     Site:       odontocompany.com/vassourasrj
+     Por quê:    Franquia nacional com sistema crítico integrado.
+                 O franqueado local pode contratar suporte próprio.
+                 Suporte remoto da franqueadora costuma ser lento.
+     Abordagem:  Falar direto com o franqueado local.
+     STATUS: [ ]
+
+R07. ODONTOFUSION LIFE
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Rua Dr. Nilo Peçanha, 26 — Centro, Vassouras/RJ
+     Por quê:    Clínica odontológica já digitalizada (laser, digital,
+                 convênios online). Depende de sistema para 100% dos processos.
+     Abordagem:  WhatsApp ou visita presencial.
+     STATUS: [ ]
+
+R08. LABORATÓRIO SÃO JUDAS TADEU
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Rua Santos Dumont, 12 — Centro, Vassouras/RJ
+     Telefone:   (24) 2471-15...
+     Site:       facebook.com/labsaojudasvass
+     Por quê:    No mercado desde 1967. Laudos digitais + integração com
+                 planos de saúde. Downtime = exames atrasados + multa de convênio.
+     Abordagem:  Presencial ou telefone. Foco: integração com planos exige uptime.
+     STATUS: [ ]
+
+R09. LABORATÓRIO FALCÃO
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Rua Presidente Vargas, 18 — CEP 27.700-000, Vassouras/RJ
+     Por quê:    Laboratório com exames admissionais e periódicos.
+                 Sistema crítico para laudos e convênios corporativos.
+     Abordagem:  Visita presencial ao gestor do laboratório.
+     STATUS: [ ]
+
+R10. LAB LIFE
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Rua Caetano Furquim — Centro, Vassouras/RJ
+     Por quê:    Laboratório de análises clínicas local.
+                 Dados sensíveis de pacientes com exigência de LGPD.
+     Abordagem:  Visita presencial.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO B — CONTABILIDADE (3 alvos)
+  Dor: prazo rígido da Receita Federal + risco de multa
+────────────────────────────────────────────────────────────
+
+R11. THOMÉ CONTABILIDADE
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Rua Nilo Peçanha, 26 — Sala 104 — Centro, Vassouras/RJ
+     Telefone:   (24) 98111-0294
+     Site:       vassouras.portaldacidade.com → Thomé Contabilidade
+     Por quê:    Escritório ativo no centro. Sistema contábil com prazos
+                 rígidos da RFB. Um dia fora do ar no vencimento do SPED
+                 gera multa ao cliente.
+     Abordagem:  Visita presencial. "Quanto custa uma multa vs. R$ 1.600/mês?"
+     STATUS: [ ]
+
+R12. GAIDESKI CONTÁBIL TRIBUTÁRIA
+     Prioridade: 🔴 QUENTE  Serviço: [B] + [C]
+     Site:       gaideskicontabilidade.com.br
+     Por quê:    Escritório com presença online e foco tributário.
+                 Uso provável de sistemas cloud ou ERP contábil.
+     Abordagem:  Contato via site ou LinkedIn.
+     STATUS: [ ]
+
+R13. RISK CONTABIL LTDA
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Praça Martinho Nóbrega, 15 — Sala 105 — Centro, Vassouras/RJ
+     CNPJ:       60.548.064/0001-53
+     Por quê:    Escritório contábil ativo no centro da cidade.
+     Abordagem:  Visita presencial ao escritório.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO C — IMOBILIÁRIAS (6 alvos)
+  Dor: portais online + CRM + site próprio sem suporte técnico
+────────────────────────────────────────────────────────────
+
+R14. SILVIA FREIRE IMÓVEIS
+     Prioridade: 🔴 QUENTE  Serviço: [B] + [C]
+     Redes:      Instagram/Facebook @silviafreireimoveis
+     Por quê:    30 anos de mercado em Vassouras. Empresa consolidada
+                 com portais online (ZAP, Viva Real). Sistema legado
+                 que precisa de manutenção e evolução.
+     Abordagem:  DM no Instagram ou indicação pessoal.
+     STATUS: [ ]
+
+R15. CAMPITELLI IMÓVEIS
+     Prioridade: 🔴 QUENTE  Serviço: [C] + [B]
+     Site:       campitelliimoveis.com.br
+     Por quê:    25 anos no mercado. Site próprio ativo com integração
+                 a portais. Volume de contratos digitais crescente.
+     Abordagem:  Contato via site. Falar com sócio/diretor.
+     STATUS: [ ]
+
+R16. INOVA IMÓVEIS VASSOURAS
+     Prioridade: 🟡 MORNO   Serviço: [C]
+     Site:       inovaimoveisvassouras.com.br
+     Por quê:    Nome "Inova" sinaliza abertura a tecnologia. Site
+                 próprio com catálogo de imóveis online.
+     Abordagem:  WhatsApp do site.
+     STATUS: [ ]
+
+R17. FARTES CORRETORA E ASSESSORIA
+     Prioridade: 🟡 MORNO   Serviço: [B] + [C]
+     Site:       fartesassessoria.com.br
+     Por quê:    Imobiliária com serviço de assessoria e site próprio.
+                 Carteira ativa de imóveis.
+     Abordagem:  Contato via site.
+     STATUS: [ ]
+
+R18. VALENTE IMÓVEIS
+     Prioridade: 🟡 MORNO   Serviço: [C]
+     Site:       valenteimoveis.rio.br
+     Por quê:    Imobiliária com presença digital ativa. Foco em
+                 compra e venda na região.
+     Abordagem:  Contato via site ou visita.
+     STATUS: [ ]
+
+R19. HCM IMÓVEIS (Helen Cristine Silva)
+     Prioridade: 🟡 MORNO   Serviço: [C] + [B]
+     Endereço:   Rua Barão de Vassouras, 19 — Loja 25 — Pátio Casario, Centro
+     Site:       hcmimoveis.com.br
+     Por quê:    Imobiliária com site próprio e localização central.
+     Abordagem:  Visita presencial à loja ou contato via site.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO D — SUPERMERCADOS / VAREJO (3 alvos)
+  Dor: PDV parado = venda perdida na hora
+────────────────────────────────────────────────────────────
+
+R20. CASA DO ARROZ SUPERMERCADOS
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Av. Otávio Gomes, 80 — Centro, Vassouras/RJ
+     Site:       vassouras.portaldacidade.com → Casa do Arroz
+     Por quê:    Supermercado local estabelecido com PDV e ERP.
+                 Caixa parado na sexta à noite = prejuízo direto.
+     Abordagem:  Visita ao proprietário. "Quanto perde com caixa parado 1h?"
+     STATUS: [ ]
+
+R21. MERCADO SERVE BEM
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Rua José Monteiro Soares Filho, 90 — Vassouras/RJ
+     Site:       redeservebem.com
+     Por quê:    Rede de mercados com operação contínua e sistema
+                 de estoque integrado ao PDV.
+     Abordagem:  Contato com gerente da unidade local.
+     STATUS: [ ]
+
+R22. MERCADO NOVA UNIÃO
+     Prioridade: 🟡 MORNO   Serviço: [B]
+     Endereço:   Rua Chanceler Raul Fernandes, 155 — Centro, Vassouras/RJ
+     Por quê:    Mercado local no centro com operação diária de PDV.
+     Abordagem:  Visita presencial ao proprietário.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO E — EDUCAÇÃO (3 alvos)
+  Dor: LGPD de menores + sistema fora no período de matrícula
+────────────────────────────────────────────────────────────
+
+R23. UNIVERSIDADE DE VASSOURAS (UNIVASSOURAS)
+     Prioridade: 🟡 MORNO   Serviço: [B] + [C] + [A]
+     Site:       univassouras.edu.br
+     Por quê:    Universidade privada com portal do aluno, ERP acadêmico,
+                 clínicas e laboratórios integrados. TI limitada para
+                 o tamanho e complexidade do ambiente.
+     Abordagem:  LinkedIn → Coordenador/Gerente de TI da Univassouras.
+     STATUS: [ ]
+
+R24. COLÉGIO ESPAÇO ATIVO
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Av. Prefeito Henrique Borges Fo., 570 — Centro, Vassouras/RJ
+     Fonte:      apontador.com.br → Colégio Espaço Ativo Vassouras
+     Por quê:    Escola particular com sistema de gestão e portal dos pais.
+                 Dados de menores = risco grave de LGPD.
+                 Diretor decide sozinho, ciclo curto.
+     Abordagem:  Visita à direção. Foco: "LGPD com dados de crianças."
+     STATUS: [ ]
+
+R25. ESCOLA ARCO IRIS (Centro de Educação e Crescimento)
+     Prioridade: 🔴 QUENTE  Serviço: [B]
+     Endereço:   Praça Sebastião de Lacerda, 97 — Centro, Vassouras/RJ
+     Por quê:    Educação Infantil e Ensino Fundamental. Sistema de
+                 matrícula crítico em janeiro/julho. Proprietário decide rápido.
+     Abordagem:  Visita presencial à direção da escola.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO F — TRANSPORTADORAS (2 alvos)
+  Dor: TMS + rastreamento crítico | Seu diferencial: nstech
+────────────────────────────────────────────────────────────
+
+R26. MJJ TRANSPORTADORA
+     Prioridade: 🔴 QUENTE  Serviço: [B] + [A]
+     Endereço:   10ª Rua Salvador Mandaro Filho, 17 — Grecco, Vassouras/RJ
+     Fonte:      solutudo.com.br → MJJ Transportadora Vassouras
+     Por quê:    Transportadora LOCAL em Vassouras. TMS e rastreamento
+                 de cargas exigem sistemas estáveis 24/7.
+                 Seu background na nstech é credencial máxima aqui.
+     Abordagem:  Visita presencial.
+                 "Trabalho na nstech, maior empresa de TI para logística
+                  do Brasil. Posso trazer esse padrão para vocês."
+     STATUS: [ ]
+
+R27. RONAL TRANSPORTADORA DE CARGAS
+     Prioridade: 🔴 QUENTE  Serviço: [B] + [C]
+     Fonte:      econodata.com.br → maiores empresas Vassouras/RJ
+     Por quê:    Uma das maiores transportadoras listadas em Vassouras.
+                 Sistemas de TMS, rastreamento e integração com clientes.
+     Abordagem:  LinkedIn ou contato com Gerente de TI / Sócio.
+                 Diferencial nstech fala por si.
+     STATUS: [ ]
+
+
+────────────────────────────────────────────────────────────
+  BLOCO G — INDÚSTRIA (3 alvos)
+  Dor: ERP + produção parada | Ciclo mais longo, ticket maior
+────────────────────────────────────────────────────────────
+
+R28. COSMETAL INDÚSTRIA (Produtos Siderúrgicos)
+     Prioridade: 🟢 FRIO    Serviço: [A] + [C]
+     CNPJ:       27.836.172/0001-56
+     Endereço:   Vassouras/RJ
+     Fonte:      econodata.com.br → CNPJ 27836172000156
+     Por quê:    Indústria de importação/exportação siderúrgica.
+                 ERP e sistemas de controle de estoque com potencial
+                 para automação e cloud cost advisory.
+     Abordagem:  LinkedIn → Gerente de TI ou Diretor.
+     STATUS: [ ]
+
+R29. STALSIDER INDÚSTRIA E COMÉRCIO DE AÇO S.A.
+     Prioridade: 🟢 FRIO    Serviço: [A] + [B]
+     Fonte:      econodata.com.br → maiores indústrias Vassouras/RJ
+     Por quê:    Uma das maiores indústrias da cidade. ERP, controle
+                 de produção e logística integrados. Potencial alto
+                 para cloud cost advisory.
+     Abordagem:  Via LinkedIn. Buscar Gerente Industrial ou de TI.
+     STATUS: [ ]
+
+R30. VASSOURAS SÃO JOÃO (Indústria e Distribuidora)
+     Prioridade: 🟢 FRIO    Serviço: [C] + [B]
+     Site:       vassourassaojoao.com.br
+     Por quê:    Indústria e distribuidora de higiene/limpeza com
+                 site próprio e sistema de distribuição regional.
+                 Logística que pode se beneficiar de automação.
+     Abordagem:  Contato via site. Foco em automação de pedidos
+                 e integração com transportadoras.
+     STATUS: [ ]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTROLE DOS 30 ALVOS REAIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  #    EMPRESA                         CONTATO   DATA    STATUS
+  ────────────────────────────────────────────────────────────────
+  R01  Hospital Universitário (HUV)    |         |       |
+  R02  Hospital Eufrasia T. Leite      |         |       |
+  R03  Centro Integrado de Saúde       |         |       |
+  R04  Clínica Rodrigo Paixão          |         |       |
+  R05  Clínica Uros                    |         |       |
+  R06  OdontoCompany Vassouras         |         |       |
+  R07  Odontofusion Life               |         |       |
+  R08  Lab. São Judas Tadeu            |         |       |
+  R09  Laboratório Falcão              |         |       |
+  R10  Lab Life                        |         |       |
+  R11  Thomé Contabilidade             |         |       |
+  R12  Gaideski Contábil Tributária    |         |       |
+  R13  Risk Contabil LTDA              |         |       |
+  R14  Silvia Freire Imóveis           |         |       |
+  R15  Campitelli Imóveis              |         |       |
+  R16  Inova Imóveis Vassouras         |         |       |
+  R17  Fartes Corretora e Assessoria   |         |       |
+  R18  Valente Imóveis                 |         |       |
+  R19  HCM Imóveis                     |         |       |
+  R20  Casa do Arroz Supermercados     |         |       |
+  R21  Mercado Serve Bem               |         |       |
+  R22  Mercado Nova União              |         |       |
+  R23  Univassouras                    |         |       |
+  R24  Colégio Espaço Ativo            |         |       |
+  R25  Escola Arco Iris                |         |       |
+  R26  MJJ Transportadora              |         |       |
+  R27  Ronal Transportadora de Cargas  |         |       |
+  R28  Cosmetal Indústria              |         |       |
+  R29  Stalsider Ind. e Com. de Aço    |         |       |
+  R30  Vassouras São João              |         |       |
+
+  STATUS: [ ] Não contactado | [A] Abordado | [R] Reunião agendada
+          [P] Proposta enviada | [F] FECHADO | [X] Descartado
+
+
+  ORDEM RECOMENDADA — PRIMEIROS 10 A ABORDAR:
+  1. R26 MJJ Transportadora         → diferencial nstech (presencial)
+  2. R27 Ronal Transportadora       → diferencial nstech (LinkedIn)
+  3. R08 Lab. São Judas Tadeu       → mais antigo, dor clara
+  4. R11 Thomé Contabilidade        → presencial, centro da cidade
+  5. R09 Laboratório Falcão         → exames admissionais, dor corporativa
+  6. R07 Odontofusion Life          → já digital, fácil converter
+  7. R03 Centro Integrado de Saúde  → multi-especialidades, decisão rápida
+  8. R15 Campitelli Imóveis         → 25 anos, site ativo
+  9. R12 Gaideski Contábil          → presença digital, aberto a tech
+  10. R24 Colégio Espaço Ativo      → LGPD de menores, diretor decide
+
+================================================================
+  Vassouras/RJ · Demarchi MEI · 2026
+  "Você tem o melhor currículo técnico da região.
+   Agora é só bater na porta certa."
+================================================================
