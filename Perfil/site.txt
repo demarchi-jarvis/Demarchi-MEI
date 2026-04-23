@@ -1,0 +1,145 @@
+================================================================
+  SITE.TXT — ESTRUTURA DE REFERÊNCIA PARA SITE MEI
+  Base: layout e copy de referência
+  Uso: próximo prompt — adaptar para Demarchi MEI
+================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  NAVEGAÇÃO (MENU)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Nossos Valores
+  Sobre Nós
+  Serviços
+  Contato
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HERO (SEÇÃO PRINCIPAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Headline:
+  "A transformação começa em você."
+
+  Subheadline:
+  [Nome da empresa]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DIFERENCIAIS (3 CARDS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Card 1 — Equipe de Especialistas
+  Experiência prática, profundo conhecimento técnico e perfil hands-on.
+
+  Card 2 — Agilidade Corporativa
+  Vencer os desafios internos principalmente na mudança cultural.
+
+  Card 3 — Transformação Digital
+  Proporcionar diferenciação competitiva em TI para os nossos clientes e parceiros.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SOBRE NÓS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Título:
+  "[Empresa] é o caminho para a transformação"
+
+  Texto:
+  Acreditamos na transformação cultural, técnica e digital, a fim de
+  trazer autonomia e segurança em aplicações que ajudem nossos clientes
+  a atingirem em seus objetivos, e alçarem voos cada vez maiores,
+  traçando e alcançando objetivos.
+
+  CTA: "Veja como fazemos"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  NOSSOS VALORES (5 PILARES)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  People       → Pessoas
+  Innovation   → Inovação
+  Creativity   → Criatividade
+  Challenges   → Resolver Desafios
+  ESG          → ESG
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  POR QUE EXISTIMOS / COMO / O QUÊ (3 BLOCOS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BLOCO 1 — POR QUE EXISTIMOS?
+  Para apoiar no processo de transformação cultural, técnica e digital
+  de nossos parceiros, com autonomia e segurança em aplicações que
+  ajudem nossos clientes a atingirem seus objetivos, e alçarem voos
+  cada vez maiores.
+
+  BLOCO 2 — COMO TRANSFORMAMOS?
+  Com mais de uma década atuando com diversas tecnologias, acreditamos
+  que nossos clientes e parceiros podem mover o mundo e cremos ainda
+  mais que podemos ajudá-los neste processo.
+
+  BLOCO 3 — O QUE ALMEJAMOS?
+  Sermos referência como parceiros tecnológicos de nossos clientes,
+  apoiando no processo de transformação digital, através de soluções
+  criativas e inovadoras, com atuação sem fronteiras e pessoas engajadas
+  com a nossa cultura.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  NOSSOS SERVIÇOS (6 CARDS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. RPA
+     Automatização de processos repetitivos que oneram muito tempo
+     do cliente, e passam a ser executados por aplicações robôs.
+
+  2. Desenvolvimento de Sistemas
+     Criação de software customizado para atender às necessidades
+     de uma empresa ou organização.
+
+  3. Desenvolvimento Mobile
+     Desenvolvimento de aplicações sob medida para atender a
+     necessidade dos nossos clientes.
+
+  4. DevOps
+     Processo de integração das equipes de desenvolvimento e operações
+     para redução de falha e aceleração na entrega de serviços.
+
+  5. Outsourcing de TI
+     Alocação de recursos e squads dentro ou fora do ambiente
+     corporativo de nossos clientes.
+
+  6. Multisserviço
+     Sistemas com alta performance de processamento e totalmente
+     desacoplados, separados por responsabilidade.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FALE CONOSCO (FORMULÁRIO)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Campos:
+  - Nome
+  - E-mail
+  - Assunto
+  - Mensagem
+  - Botão: Enviar
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  RODAPÉ (FOOTER)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Colunas:
+  - Sobre a [Empresa]
+  - Nossos Serviços: RPA | Desenvolvimento de Sistemas |
+    Desenvolvimento Mobile | DevOps | Outsourcing de TI | Multisserviço
+  - Nosso Contato
+
+  © Copyright [Empresa]. All Rights Reserved.
+
+================================================================
