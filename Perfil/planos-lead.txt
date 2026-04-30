@@ -1,0 +1,556 @@
+================================================================================
+PLANO DE EXECUÇÃO TÉCNICA — GROWTH HACKING B2B
+Demarchi-MEI | Consultoria de TI | Meta: 1 lead qualificado → R$2.000/mês
+================================================================================
+Versão: 1.0 | Data: 2026-04-30
+Autor: Antonio Demarchi (com apoio de IA)
+================================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 1 — DIAGNÓSTICO DO FUNIL (250 cliques/semana)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SITUAÇÃO ATUAL (referência semanal estimada):
+  250 cliques → landing page / site
+  ↓  CTR médio B2B local: 2–4%
+  5–10 leads potenciais (algum contato ou tempo na página > 60s)
+  ↓  Taxa de conversão lead → reunião: ~10–20%
+  0–2 reuniões agendadas
+  ↓  Taxa de fechamento reunião → contrato: ~25–33%
+  0–0.5 contrato por semana
+
+CONCLUSÃO DO FUNIL:
+  O problema NÃO é volume de cliques — 250/semana são suficientes para
+  fechar 1 contrato a cada 2–4 semanas se o funil estiver calibrado.
+
+  GARGALO PRIMÁRIO: Conversão do clique em lead capturado
+    → Site sem CTA claro de "diagnóstico gratuito"
+    → Sem captura de e-mail/WhatsApp estruturada
+    → Sem sequência de nutrição após o clique
+
+  GARGALO SECUNDÁRIO: Ausência de qualificação automática
+    → Sem pergunta de qualificação no formulário
+    → Sem lead scoring básico (segmento + porte)
+
+  GARGALO TERCIÁRIO: Follow-up manual e inconstante
+    → Sem CRM ativo
+    → Sem sequência de e-mail/WhatsApp automatizada
+
+META REALISTA COM FUNIL CORRIGIDO:
+  250 cliques → 12 leads capturados (CTR 5%) → 3 ligações/reuniões → 1 fechamento
+  Tempo de ciclo esperado: 2–4 semanas por contrato
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 2 — QUARTEL GENERAL: INFRAESTRUTURA CRM + AUTOMAÇÃO + DADOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STACK RECOMENDADA (baixo custo, alta alavancagem):
+
+[1] CRM — HubSpot Free (ou Pipedrive Essencial R$60/mês)
+    Função: rastrear todos os 30 alvos + novos leads
+    Configuração mínima:
+      - Pipeline: Prospectado → Contatado → Diagnóstico Agendado → Proposta → Fechado
+      - 1 deal por empresa-alvo desde já
+      - Custom fields: Segmento, Faturamento estimado, Responsável, Canal de Entrada
+    Ação imediata: cadastrar todos os 30 alvos de alvos.txt hoje
+
+[2] CAPTURA DE LEADS — Formulário de "Diagnóstico Gratuito" no site Next.js
+    Implementação técnica (já tem a stack):
+      - Formulário com 3 campos: Nome, WhatsApp, "Qual sua maior dor em TI hoje?"
+      - GTM event: lead_form_submit → Meta Pixel LeadEvent → CAPI server-side
+      - Webhook: formulário → n8n (self-hosted no mesmo VPS) → HubSpot CRM
+    KPI: Taxa de conversão clique → lead capturado (meta: 5%)
+
+[3] AUTOMAÇÃO DE FOLLOW-UP — n8n (self-hosted, gratuito)
+    Fluxo 1 — Novo lead do formulário:
+      T+0min:  WhatsApp automático (Evolution API / Baileys): "Oi [nome], recebi seu
+               interesse! Sou o Antonio. Em qual horário posso ligar para entender
+               sua situação e ver se consigo ajudar?"
+      T+30min: E-mail via SMTP (Gmail SMTP gratuito): "Olá [nome], segue o material
+               de diagnóstico..." (PDF 1-pager com o método)
+      T+24h:   WhatsApp: "Conseguiu dar uma olhada? Tenho 20 min essa semana."
+      T+72h:   WhatsApp: último follow-up da sequência
+
+    Fluxo 2 — Outbound (30 alvos mapeados):
+      Semana 1: WhatsApp manual (script abaixo) para os 10 prioritários
+      Semana 2: E-mail frio para os 20 restantes
+      Semana 3: Ligação para quem não respondeu nada
+
+[4] DADOS E SCRAPING — Prospecção contínua
+    Ferramentas gratuitas / low-cost:
+      - Google Maps API (scraping de CNPJs locais novos): pesquisa por segmento
+        em Vassouras e cidades vizinhas (Valença, Barra do Piraí, Paty do Alferes)
+      - LinkedIn Sales Navigator (trial 30 dias grátis): buscar gestores locais
+      - WhatsApp Business: perfil profissional com foto, horário, link do site
+      - CNPJ.biz / Receita WS: enriquecer dados dos alvos com faturamento
+
+[5] MONITORAMENTO — Dashboard simples
+    - Meta Ads Manager: custo por clique, custo por lead
+    - GTM + GA4: tempo na página, scroll depth, cliques no CTA
+    - HubSpot: deals por etapa, taxa de conversão por segmento
+    - Planilha Google semanal: cliques / leads / reuniões / propostas / fechamentos
+
+CUSTO MENSAL DO QUARTEL GENERAL:
+  HubSpot Free:         R$0
+  n8n self-hosted:      R$0 (VPS já existente)
+  Evolution API:        R$0 (self-hosted)
+  Meta Ads:             R$300–500/mês (budget de tráfego pago)
+  Gmail SMTP:           R$0
+  TOTAL:                R$300–500/mês para um sistema profissional completo
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 3 — SCRIPTS DE VENDA CONSULTIVA (DIAGNÓSTICO)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRINCÍPIO: Nunca ofereça serviço. Ofereça descoberta do problema.
+"A venda acontece quando o cliente percebe que o custo do problema é maior
+que o custo da solução."
+
+────────────────────────────────────────────────────────────────────────────────
+SCRIPT 1 — ABORDAGEM FRIA POR WHATSAPP (30 alvos mapeados)
+────────────────────────────────────────────────────────────────────────────────
+
+[Para dono/responsável identificado em contatos.txt]
+
+"Oi [Nome], tudo bem? Me chamo Antonio Demarchi, sou especialista em TI
+aqui em Vassouras. Trabalhei com empresas como a Rede Globo e nstech e
+agora atendo negócios locais. Vi que a [Empresa] está crescendo na região
+e tenho uma pergunta direta:
+
+Você sabe exatamente quanto a [Empresa] está perdendo hoje com sistemas
+lentos, falhas ou processos manuais que poderiam ser automatizados?
+
+Não precisa responder agora — mas se quiser descobrir, ofereço um
+diagnóstico técnico gratuito de 30 min. Sem compromisso. Só para você
+ter clareza do que está custando.
+
+Posso agendar essa semana?"
+
+[SE RESPONDER COM INTERESSE — Qualificação:]
+"Ótimo! Antes de agendarmos, me conta rapidinho:
+1. Você usa algum sistema de gestão hoje (ERP, software próprio)?
+2. Qual o maior problema técnico que te tira o sono no negócio?
+Isso me ajuda a preparar o diagnóstico certo para vocês."
+
+[SE RESPONDER "não tenho interesse" ou ignorar por 5 dias:]
+→ Mover para fila de e-mail frio (sequência automatizada via n8n)
+→ Aguardar 30 dias e retomar com ângulo diferente (ex: caso de sucesso)
+
+────────────────────────────────────────────────────────────────────────────────
+SCRIPT 2 — LIGAÇÃO DE DIAGNÓSTICO (30 minutos)
+────────────────────────────────────────────────────────────────────────────────
+
+ESTRUTURA (SPIN Selling adaptado):
+
+[ABERTURA — 2 min]
+"Obrigado por reservar esse tempo, [Nome]. Como combinei, meu objetivo
+aqui não é vender nada. É entender a situação de vocês em TI e ver se
+existe algo em que eu possa realmente ajudar. Pode ser que no final não
+faça sentido — e está ótimo assim. Pode abrir o computador/câmera?"
+
+[SITUAÇÃO — 5 min] (entender o contexto atual)
+- "Me conta: como a equipe de vocês usa tecnologia hoje no dia a dia?"
+- "Quantas pessoas dependem dos sistemas de TI para trabalhar?"
+- "Vocês têm alguém interno responsável por TI ou é tudo terceirizado?"
+
+[PROBLEMA — 10 min] (descobrir as dores reais)
+- "Quais são as 3 maiores frustrações de vocês com tecnologia hoje?"
+- "Já aconteceu algum problema que parou a operação? Me conta como foi."
+- "Quanto tempo por semana a equipe perde com erros de sistema ou
+  processos manuais que poderiam ser automáticos?"
+- "Já tentaram resolver isso antes? O que aconteceu?"
+
+[IMPLICAÇÃO — 8 min] (amplificar o custo do problema)
+- "Se esse problema continuar por mais 12 meses, o que acontece?"
+- "Você consegue estimar quanto esse problema está custando por mês
+  entre retrabalho, erros e tempo perdido?"
+- "Isso está afetando a satisfação dos clientes de vocês também?"
+
+[NECESSIDADE-SOLUÇÃO — 5 min] (criar visão da solução)
+- "Se existisse uma solução que resolvesse [problema específico dito],
+  o que mudaria no dia a dia de vocês?"
+- "Qual seria o impacto se isso estivesse resolvido em 30 dias?"
+
+[ENCERRAMENTO — Próximo passo claro]
+"Baseado no que você me contou, consigo enxergar 2-3 caminhos para
+resolver [problema específico]. Posso preparar uma proposta técnica
+personalizada de como eu faria isso, com custo e prazo. Faz sentido
+eu te enviar essa proposta essa semana?"
+
+[SE SIM:] "Perfeito. Preciso de mais 48h para montar algo sólido.
+Você prefere receber por e-mail ou WhatsApp? E posso te ligar
+na [dia/hora] para apresentar?"
+
+[SE "deixa eu pensar":] "Claro, totalmente compreensível. Só para eu
+entender melhor: o que faria você decidir avançar nisso? Tem alguma
+dúvida específica que eu possa responder agora?"
+
+────────────────────────────────────────────────────────────────────────────────
+SCRIPT 3 — APRESENTAÇÃO DE PROPOSTA (20 minutos)
+────────────────────────────────────────────────────────────────────────────────
+
+[ABERTURA — reafirmar o problema deles]
+"Na nossa última conversa você mencionou que [dor específica] está
+custando aproximadamente [valor estimado] por mês. Trouxe a proposta
+baseada exatamente nisso."
+
+[PROPOSTA — 3 opções sempre]
+Opção 1: Cloud Cost Guard — R$1.600/mês
+  "Foco em reduzir o que vocês gastam em nuvem e sistemas"
+Opção 2: SRE Lite — R$1.600/mês
+  "Foco em garantir que os sistemas não caiam"
+Opção 3: DevOps Advisory — R$1.600/mês
+  "Foco em modernizar o processo de desenvolvimento"
+
+"Qual dessas três se aproxima mais da dor que você me descreveu?"
+[Deixe o cliente escolher — nunca empurre uma opção]
+
+[ÂNCORA DE VALOR]
+"O investimento é R$1.600/mês. Se a gente resolver só [problema X],
+você me disse que a empresa economiza/fatura [valor Y] a mais. Isso
+significa que o retorno acontece em [X semanas]."
+
+[FECHAMENTO — pergunta direta]
+"O que falta para você tomar essa decisão?"
+[Silêncio — aguarde a resposta. Não quebre o silêncio.]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 4 — 20 ESTRATÉGIAS: ATRAÇÃO / RETENÇÃO / CONVERSÃO / ESCALA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRIORIDADE DE EXECUÇÃO (semanas 1-4):
+  Semana 1: Estratégias 1, 2, 6, 11, 16 (fundação)
+  Semana 2: Estratégias 3, 7, 12, 17
+  Semana 3: Estratégias 4, 8, 13, 18
+  Semana 4: Estratégias 5, 9, 14, 19, 20
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ATRAÇÃO (como encontrar e ser encontrado por leads qualificados)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESTRATÉGIA 1 — ABORDAGEM DIRETA DOS 30 ALVOS MAPEADOS
+Tipo: Outbound Imediato | Esforço: Alto | Custo: R$0 | Tempo: Semana 1
+Execução:
+  - Abrir HubSpot e cadastrar todos os 30 de alvos.txt como deals
+  - Prioridade 1 (semana 1): MJJ Transportadora, Ronal, Lab São Judas,
+    Thomé Contabilidade (os 4 mais promissores segundo ranking)
+  - Prioridade 2 (semana 2): mais 6 alvos
+  - Enviar Script 1 (WhatsApp) para cada um, personalizado com o nome do dono
+  - Meta: 4 respostas → 2 diagnósticos agendados → 1 proposta
+
+ESTRATÉGIA 2 — GOOGLE MINHA EMPRESA (perfil local gratuito)
+Tipo: Inbound Orgânico | Esforço: Baixo | Custo: R$0 | Tempo: 1 hora
+Execução:
+  - Criar/otimizar perfil "Demarchi-MEI Consultoria de TI" no Google
+  - Categoria: "Consultoria de TI" + "Serviço de TI gerenciado"
+  - Área de atendimento: Vassouras, Valença, Barra do Piraí, Paty do Alferes
+  - Adicionar fotos, horário, link do site, número do WhatsApp Business
+  - Pedir avaliação a qualquer contato profissional que já teve
+  - Meta: aparecer nas buscas "consultoria de TI Vassouras" em 30 dias
+
+ESTRATÉGIA 3 — CONTEÚDO DE AUTORIDADE NO LINKEDIN (nstech como credencial)
+Tipo: Inbound Social | Esforço: Médio | Custo: R$0 | Tempo: 2h/semana
+Execução:
+  - 2 posts por semana no LinkedIn sobre problemas reais de TI em PMEs
+  - Formato: "Enquanto trabalhava na nstech/Globo, vi esse erro costar caro.
+    Pequenas empresas cometem o mesmo. Veja como evitar: [3 dicas]"
+  - Sempre terminar com CTA: "Quer saber se sua empresa tem esse risco?
+    Me manda uma mensagem para um diagnóstico gratuito."
+  - Tag: #VassourasTI #ConsultoriaTI #DevOps
+  - Conectar com donos das empresas alvo identificados em contatos.txt
+
+ESTRATÉGIA 4 — ANÚNCIO META ADS HIPERSEGMENTADO (+ Meta Pixel + CAPI)
+Tipo: Paid Inbound | Esforço: Médio | Custo: R$300/mês | Tempo: Semana 2
+Execução:
+  - Público-alvo: donos/gestores de empresas em Vassouras e raio 30km
+  - Segmentação: cargo = "dono", "diretor", "gerente" + setor saúde/varejo/transporte
+  - Criativo: "Sua empresa perde dinheiro sem perceber com TI mal gerenciada.
+    Descubra em 30 minutos. Diagnóstico grátis com especialista."
+  - Objetivo de campanha: Lead Generation (formulário nativo no Meta)
+  - Retargeting via Pixel: reimpactar quem visitou o site sem converter
+  - CAPI já configurado: eventos server-side para reduzir perda de dados iOS
+  - Meta: 15 leads/mês a custo < R$25/lead
+
+ESTRATÉGIA 5 — SEO LOCAL COM CASOS DE USO (site Next.js)
+Tipo: Inbound Orgânico | Esforço: Alto | Custo: R$0 | Tempo: Semana 3-4
+Execução:
+  - Criar páginas no site: /consultoria-ti-vassouras, /reducao-custo-nuvem,
+    /sre-vassouras, /devops-pme
+  - Conteúdo: cada página resolve uma dor específica de um segmento
+  - Ex: "Clínicas de Vassouras: como evitar que o sistema caia durante
+    atendimento" → CTA: Diagnóstico Grátis
+  - GTM: rastrear scroll depth e cliques no botão de CTA por página
+  - Meta: aparecer no Google para buscas intencionais em 60-90 dias
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RETENÇÃO (como manter leads quentes até a decisão de compra)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESTRATÉGIA 6 — SEQUÊNCIA AUTOMÁTICA DE NURTURING (n8n + WhatsApp/E-mail)
+Tipo: Automação | Esforço: Médio setup | Custo: R$0 | Tempo: Semana 1
+Execução (configurar no n8n):
+  Trigger: lead captura formulário do site
+  D+0:  WhatsApp automático (Script 1 adaptado) — personalizado com nome
+  D+1:  E-mail: "Diagnóstico: 5 sinais que sua empresa está perdendo dinheiro
+        com TI" — conteúdo de valor, sem oferta
+  D+3:  WhatsApp: case de sucesso (ex: "Ajudei empresa similar a economizar
+        R$800/mês. Posso mostrar como?")
+  D+7:  E-mail: "Ainda pensando? Veja o que outras empresas de [segmento]
+        estão fazendo"
+  D+14: Último follow-up: "Vou fechar minha agenda para novos diagnósticos
+        essa semana. Você ainda quer uma vaga?"
+  Meta: 40% de taxa de abertura no e-mail, 60% de resposta no WhatsApp
+
+ESTRATÉGIA 7 — GRUPO WHATSAPP DE VALOR PARA EMPRESÁRIOS LOCAIS
+Tipo: Community | Esforço: Baixo | Custo: R$0 | Tempo: Semana 2
+Execução:
+  - Criar grupo: "TI para Empresários de Vassouras — Antonio Demarchi"
+  - Convidar donos dos alvos (os que respondem no WhatsApp)
+  - Regra: sem spam, só dicas úteis 2x/semana
+  - Conteúdo: alertas de segurança, dicas de redução de custo, erros comuns
+  - 1 vez/mês: "Tenho 2 vagas para diagnóstico grátis este mês — quem quer?"
+  - Meta: 15 membros em 30 dias, 3 leads quentes por mês
+
+ESTRATÉGIA 8 — NEWSLETTER QUINZENAL (E-mail + LinkedIn)
+Tipo: Content | Esforço: Médio | Custo: R$0 | Tempo: 1h quinzenal
+Execução:
+  - Ferramenta: Brevo (ex-Sendinblue) — free até 300 e-mails/dia
+  - Formato: 1 problema real + 1 solução prática + 1 caso de uso + 1 CTA
+  - Título sempre interrogativo: "Sua empresa teria sobrevivido ao apagão de
+    ontem?" / "Quanto custa 1 hora de sistema parado para você?"
+  - Lista inicial: contatos de contatos.txt que forneceram e-mail
+  - Meta: 50 assinantes em 60 dias, 1 agendamento por edição
+
+ESTRATÉGIA 9 — RETARGETING INSTAGRAM/META (Pixel já instalado)
+Tipo: Paid Retenção | Esforço: Baixo | Custo: R$50/mês | Tempo: Semana 3
+Execução:
+  - Pixel já rastreia visitantes do site (CAPI configurado)
+  - Criar público personalizado: visitantes últimos 30 dias que NÃO converteram
+  - Anúncio de retargeting: "Você visitou nosso site mas não agendou o
+    diagnóstico. Ainda tem 2 vagas essa semana — são grátis."
+  - Duração: 7 dias após visita
+  - Meta: reativar 15% dos visitantes que não converteram
+
+ESTRATÉGIA 10 — PARCERIA COM CONTADORES LOCAIS
+Tipo: Channel Partner | Esforço: Médio | Custo: R$0 | Tempo: Semana 3
+Execução:
+  - Thomé Contabilidade e outros contadores dos alvos são intermediários ideais
+  - Proposta: "Você cuida do financeiro dos seus clientes. Eu cuido do TI.
+    Se indicar alguém, eu faço o diagnóstico grátis para o cliente e
+    você fica bem na foto. Sem comissão — só parceria."
+  - Preparar 1-pager PDF de apresentação da parceria
+  - Abordar os 3 escritórios de contabilidade identificados em alvos.txt
+  - Meta: 1 parceria ativa gerando 1-2 indicações/mês
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONVERSÃO (como transformar leads quentes em contratos assinados)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESTRATÉGIA 11 — DIAGNÓSTICO TÉCNICO GRATUITO COMO PRODUTO
+Tipo: Conversão | Esforço: Médio | Custo: R$0 | Tempo: Semana 1
+Execução:
+  - Criar template de "Relatório de Diagnóstico" em PDF (1-2 páginas)
+  - Seções: Situação atual → Riscos identificados → Custo estimado do problema
+    → Recomendação técnica → Próximo passo (proposta)
+  - Após cada call de diagnóstico: enviar relatório personalizado em 24h
+  - O relatório É a proposta disfarçada de análise
+  - Instrução: nunca cobrar pelo diagnóstico, mas deixar claro:
+    "A implementação das melhorias identificadas aqui é a parte paga"
+  - Meta: 80% dos diagnósticos geram proposta formal
+
+ESTRATÉGIA 12 — PROPOSTA COM 3 OPÇÕES E ÂNCORA DE PREÇO
+Tipo: Conversão | Esforço: Baixo | Custo: R$0 | Tempo: Semana 2
+Execução:
+  - Sempre apresentar 3 opções (nunca 1):
+    Básico: R$1.600/mês (pacote Cloud Cost Guard)
+    Padrão: R$2.200/mês (Cloud Cost Guard + SRE Lite combinados)
+    Premium: R$3.800/mês (todos os serviços + acesso prioritário)
+  - Âncora: apresentar o Premium primeiro para fazer o Básico parecer barato
+  - A maioria escolhe o do meio (Padrão) — que é o ideal para você também
+  - Nunca negociar preço para baixo: negociar escopo, prazo ou garantias
+  - Garantia de resultado: "Se em 60 dias você não ver valor real, pode
+    cancelar sem multa." (elimina risco percebido)
+  - Meta: 50% de conversão de proposta para contrato
+
+ESTRATÉGIA 13 — URGÊNCIA REAL E ESCASSEZ (sem ser falso)
+Tipo: Conversão | Esforço: Baixo | Custo: R$0 | Tempo: Sempre
+Execução:
+  - Limite real: você tem capacidade para 3-4 clientes simultâneos
+  - Comunicar isso honestamente: "Trabalho com máximo 4 clientes simultâneos
+    para garantir qualidade. Tenho 1 vaga agora."
+  - Datas reais: "Posso começar no dia X — depois disso minha agenda fecha
+    por 6 semanas"
+  - Nunca inventar urgência falsa — clientes B2B percebem e desconfiam
+  - Meta: reduzir ciclo de decisão de 2 semanas para 5 dias
+
+ESTRATÉGIA 14 — CONTRATO SIMPLIFICADO (sem burocracia)
+Tipo: Conversão | Esforço: Médio setup | Custo: R$0 | Tempo: Semana 2
+Execução:
+  - Criar contrato de serviço de 1 página (usando modelo do MEI)
+  - Elementos: escopo claro, entregáveis mensais, prazo de aviso de 30 dias,
+    forma de pagamento (Pix)
+  - Ferramenta: DocuSign (free para 3 docs/mês) ou WhatsApp com foto assinada
+  - Assinatura digital elimina fricção de "vou mandar para o advogado"
+  - Meta: contrato assinado em até 48h após aceite verbal
+
+ESTRATÉGIA 15 — CASE DE SUCESSO INTERNO (criar rapidamente)
+Tipo: Prova Social | Esforço: Alto | Custo: R$0 | Tempo: Semana 3
+Execução:
+  - nstech: descrever projeto real (sem dados confidenciais) como case
+    "Reduzimos custo de infraestrutura em 35% em uma empresa de logística"
+  - Globo: "Implementei automação que eliminou 8h/semana de trabalho manual"
+  - Formato: Situação → Problema → Solução → Resultado (com número)
+  - Usar no site, LinkedIn, WhatsApp e no diagnóstico
+  - Quando fechar 1º cliente: pedir depoimento formal em 30 dias
+  - Meta: 2 cases funcionais antes do primeiro contato de venda
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ESCALA (como crescer de 1 para 3-5 clientes sem adicionar horas)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESTRATÉGIA 16 — PADRONIZAR ENTREGA EM PLAYBOOKS
+Tipo: Escala | Esforço: Alto | Custo: R$0 | Tempo: Semana 1
+Execução:
+  - Para cada serviço, criar checklist de entrega mensal (Notion ou Google Docs)
+  - Cloud Cost Guard: checklist de 15 itens (análise de billing, alertas, relatório)
+  - SRE Lite: checklist de 12 itens (uptime, alertas, incident report)
+  - DevOps Advisory: checklist de 10 itens (code review, pipeline, treinamento)
+  - Com playbook, atender 4 clientes toma o mesmo tempo que atender 1 sem playbook
+  - Meta: cada cliente gerenciado em 8-10h/mês (dentro do prometido de 10-15h)
+
+ESTRATÉGIA 17 — EXPANSÃO DE TICKET POR UPSELL
+Tipo: Escala/Receita | Esforço: Baixo | Custo: R$0 | Tempo: Mês 2
+Execução:
+  - Após 45 dias de contrato, realizar "Revisão de Evolução"
+  - Identificar próxima dor que surgiu durante o trabalho
+  - Oferecer add-on: "Descobri que vocês também têm risco em [área X].
+    Posso incluir isso por mais R$400/mês ou criar um projeto separado."
+  - Objetivo: ticket médio de R$1.600 → R$2.200 em 60 dias
+  - Meta: 50% dos clientes com upsell ativo em 90 dias
+
+ESTRATÉGIA 18 — INDICAÇÕES INCENTIVADAS (programa de referral)
+Tipo: Escala | Esforço: Baixo | Custo: R$0 | Tempo: Mês 2
+Execução:
+  - Para cada cliente ativo: "Se você indicar um amigo empresário que fechar
+    comigo, você ganha 1 mês grátis no seu contrato."
+  - Comunicar no fim do 1º mês (quando o cliente já viu valor)
+  - Pedir explicitamente: "Você conhece algum outro dono de empresa aqui
+    na região que tem dores parecidas com as que resolvemos para você?"
+  - Meta: 1 indicação por cliente ativo a cada 2 meses
+
+ESTRATÉGIA 19 — PRODUTO DIGITAL COMO PORTA DE ENTRADA
+Tipo: Escala/Atração | Esforço: Alto | Custo: R$0 | Tempo: Mês 2-3
+Execução:
+  - Criar lead magnet: "Checklist: 10 sinais que sua empresa está perdendo
+    dinheiro com TI" — PDF de 2 páginas
+  - Entregar via e-mail após cadastro no site
+  - Dentro do PDF: 3 perguntas de diagnóstico rápido → CTA para call
+  - GTM: rastrear downloads e criar público de retargeting
+  - Futuramente: mini-curso gratuito no YouTube ou PDF mais extenso
+  - Meta: 20 downloads/semana → 3 leads qualificados/semana
+
+ESTRATÉGIA 20 — EXPANSÃO GEOGRÁFICA POR SIMILITUDE
+Tipo: Escala | Esforço: Médio | Custo: R$100/mês | Tempo: Mês 3-4
+Execução:
+  - Depois de 2-3 clientes fechados em Vassouras, expandir para:
+    Valença (34km), Barra do Piraí (40km), Paty do Alferes (25km)
+  - Mesma metodologia: Google Maps scraping → WhatsApp outbound → diagnóstico
+  - Meta Ads: expandir raio de segmentação para 50km
+  - Argumentar: "Já atendo empresas em Vassouras com sucesso e estou
+    expandindo para a região. Tenho 1 vaga disponível."
+  - Meta: dobrar pipeline de oportunidades sem aumentar esforço proporcional
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 5 — CRONOGRAMA DE EXECUÇÃO (30 dias para o 1º cliente)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEMANA 1 (Dias 1-7) — FUNDAÇÃO
+  [ ] Cadastrar todos os 30 alvos no HubSpot (2h)
+  [ ] Configurar WhatsApp Business com perfil profissional (30min)
+  [ ] Criar/otimizar Google Minha Empresa (1h)
+  [ ] Criar template de Relatório de Diagnóstico em PDF (2h)
+  [ ] Configurar n8n: fluxo de follow-up automático (3h)
+  [ ] Enviar Script 1 para os 4 alvos prioritários (1h)
+  [ ] Criar cases de sucesso baseados em nstech/Globo (2h)
+
+SEMANA 2 (Dias 8-14) — PRIMEIROS CONTATOS
+  [ ] Enviar Script 1 para os próximos 6 alvos (1h)
+  [ ] Realizar 1-2 diagnósticos agendados na semana 1 (2h cada)
+  [ ] Postar 2x no LinkedIn (2h total)
+  [ ] Criar proposta com 3 opções + contrato modelo (2h)
+  [ ] Configurar campanha Meta Ads básica (2h)
+  [ ] Criar grupo WhatsApp de empresários e convidar 5 contatos
+
+SEMANA 3 (Dias 15-21) — CONVERSÃO
+  [ ] Follow-up com todos os contatos da semana 1 (1h)
+  [ ] Realizar 2-3 diagnósticos (2h cada)
+  [ ] Enviar propostas formais para quem participou do diagnóstico (1h cada)
+  [ ] Abordar os 3 escritórios de contabilidade para parceria (1h)
+  [ ] Analisar métricas: CTR, custo/lead, taxa de resposta WhatsApp
+
+SEMANA 4 (Dias 22-30) — FECHAMENTO
+  [ ] Fechar 1 contrato (meta mínima)
+  [ ] Criar playbook de entrega do serviço contratado (3h)
+  [ ] Solicitar depoimento formal para case de sucesso
+  [ ] Planejar mês 2: upsell, expansão geográfica, mais alvos
+
+KPIs PARA ACOMPANHAR SEMANALMENTE:
+  - Contatos feitos (WhatsApp/e-mail/ligação)
+  - Taxa de resposta (meta: 20%)
+  - Diagnósticos agendados (meta: 2/semana)
+  - Propostas enviadas (meta: 1/semana a partir da semana 2)
+  - Contratos fechados (meta: 1 em 30 dias)
+  - Custo por lead (Meta Ads) — meta: < R$30/lead
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 6 — ANÁLISE DE VIABILIDADE FINANCEIRA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+META CONSERVADORA (mês 1-3):
+  1 cliente × R$1.600/mês = R$1.600/mês
+  Custo: Meta Ads R$300 + ferramentas R$0 = R$300/mês
+  Lucro líquido: R$1.300/mês
+
+META MODERADA (mês 3-6):
+  3 clientes × R$1.600/mês = R$4.800/mês
+  Custo: Meta Ads R$500 + ferramentas R$60 = R$560/mês
+  Lucro líquido: R$4.240/mês (+ CLT se mantiver emprego)
+
+META AGRESSIVA (mês 6-12):
+  4 clientes × R$2.200/mês (ticket médio com upsell) = R$8.800/mês
+  Custo: Meta Ads R$800 + ferramentas R$200 = R$1.000/mês
+  Lucro líquido: R$7.800/mês
+
+BREAK-EVEN DE ANÚNCIOS:
+  Investimento: R$300/mês em Meta Ads
+  Custo por lead estimado: R$25/lead
+  Leads gerados: 12/mês
+  Taxa de conversão: 8% (1 em 12 fecha)
+  Valor do contrato: R$1.600/mês × 12 meses = R$19.200 LTV
+  ROI do anúncio: R$19.200 / R$300 = 64x no primeiro ano
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REGRAS DE OURO (não negociáveis)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. NUNCA venda tecnologia — venda redução de risco e resultado de negócio
+2. SEMPRE qualifique antes de apresentar qualquer proposta
+3. CADA "não" é informação — anote o motivo e melhore o script
+4. O diagnóstico gratuito é o produto — entregue valor real nele
+5. Follow-up persistente sem ser inconveniente: máximo 5 contatos por lead
+6. Credencial nstech/Globo abre portas — use nos primeiros 30 segundos
+7. Preço fixo por valor, não por hora — R$1.600 pelo resultado, não pelo tempo
+8. Um cliente satisfeito vale mais que 10 anúncios — entrega impecável
+9. Documentar tudo no CRM — memória da empresa não pode depender da sua cabeça
+10. Revisar métricas toda segunda-feira — o que não é medido não melhora
+
+================================================================================
+FIM DO PLANO | Próxima revisão: 2026-05-30
+================================================================================
